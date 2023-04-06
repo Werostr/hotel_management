@@ -1,0 +1,101 @@
+html{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color:rgba(255, 255, 255, 0.808);
+}
+*,*:before, *:after{
+    box-sizing: inherit;
+    font-family: Didot, serif;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: normal;
+    text-decoration:initial;
+    color:rgba(255, 255, 255, 0.808);
+}
+html, body{
+    height: 100%;
+}
+header{
+    margin: 10px;
+}
+.banner{
+    background-image: url("https://i0.wp.com/magazyn.travelist.pl/wp-content/uploads/2021/01/green-1.jpeg?ssl=1");
+    background-size: cover;
+    height: 600px;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+    
+}
+.banner > p{
+    padding:15px;
+    font-size: 4pc;
+    background-color: rgba(0, 0, 0, 0.471);
+}
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;  
+   
+}
+.content{
+    flex: 1 0 auto; 
+}
+main{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+}
+.part1{
+    flex-grow: 1;
+    background: url('https://czahowka.pl/magazyn/image/p1ap5o4tk2s73502oi1muq1u4j3.jpg');
+}
+.part2{
+    flex-grow: 1;
+}
+.part2_1{
+    background-color: hsla(0, 0%, 6%, 0.932);
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.part2_2{
+    display: flex;
+    flex-direction: column;
+    
+    background-image: linear-gradient(rgb(14, 12, 12), rgb(46, 46, 43), rgb(9, 12, 9));
+    margin: 10px;
+    padding: 3px;
+    align-items: center;
+}
+.logowanie{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.part3{
+    flex-grow: 1;
+    background: url('https://czahowka.pl/magazyn/image/p1ap5o4tk2paba00b9f1nn6rj54.JPG');
+}
+footer{
+    padding-left: 200px;
+    padding-right: 200px;
+    align-self: center;
+    flex-shrink: 0;
+    background-color: hsla(0, 3%, 7%, 0.932);
+}
+input {
+    color: black;
+}
+
+@media (max-width:576px){
+    .banner{
+        align-items: flex-start;
+        height: 400px;
+    }
+}

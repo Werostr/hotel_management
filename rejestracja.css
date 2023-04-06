@@ -1,0 +1,70 @@
+html{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+    background-image: url("https://wptv-upload-api.wpcdn.pl/24b0492a-fb13-408a-959b-2ed0478404aa.jpg");
+    background-size: cover;
+    width:100%;
+}
+*,*:before, *:after{
+    box-sizing: inherit;
+    font-family: Didot, serif;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: normal;
+    text-decoration:initial;
+    color:rgba(255, 255, 255, 0.808);
+}
+html, body{
+    height: 100%;
+}
+.content{
+    flex: 1 0 auto; 
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.part1{
+    display:flex;
+    flex-direction:column;
+    padding:15px;
+    font-size: 4pc;
+    background-color: rgba(0, 0, 0, 0.658);
+    justify-content: center;
+    align-items: center;
+}
+.rejestracja{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.part2{
+    display:flex;
+    padding: 10px;
+    margin: 5px;
+    font-size: 4pc;
+    background-color: rgba(0, 0, 0, 0.471);
+    text-align: center;
+    justify-content: center;
+}
+.all{
+
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;  
+}
+
+footer{
+    padding-left: 200px;
+    padding-right: 200px;
+    align-self: center;
+    flex-shrink: 0;
+    background-color: hsla(0, 3%, 7%, 0.932);
+}
+input{
+    color: black;
+}

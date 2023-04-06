@@ -1,0 +1,59 @@
+html{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+    background-image: url("https://wptv-upload-api.wpcdn.pl/24b0492a-fb13-408a-959b-2ed0478404aa.jpg");
+    background-size: cover;
+    width:100%;
+}
+*,*:before, *:after{
+    box-sizing: inherit;
+    font-family: Didot, serif;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: normal;
+    text-decoration:initial;
+    color:rgba(255, 255, 255, 0.808);
+}
+html, body{
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+table{
+    display:flex;
+    padding: 30px;
+    margin: 5px;
+    font-size: 6pc;
+    background-color: rgba(0, 0, 0, 0.712);
+    text-align: center;
+    justify-content: center;
+}
+a{
+    padding: 15px;
+    margin: 5px;
+    font-size: 1.5pc;
+    background-color: rgba(0, 0, 0, 0.471);
+    text-align: center;
+
+}
+b{
+    font-size: 1.5pc;
+    margin: 10px;
+}
+main{
+    flex: 1 0 auto; 
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    padding-left: 200px;
+    padding-right: 200px;
+    align-self: center;
+    flex-shrink: 0;
+    background-color: hsla(0, 3%, 7%, 0.932);
+}

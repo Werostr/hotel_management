@@ -1,0 +1,93 @@
+html{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+}
+*,*:before, *:after{
+    box-sizing: inherit;
+    font-family: Didot, serif;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: normal;
+    text-decoration:initial;
+    color:rgba(255, 255, 255, 0.808);
+}
+html, body{
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+  }
+.content{
+    flex: 1 0 auto; 
+}
+header{
+    background-image: url("https://wptv-upload-api.wpcdn.pl/24b0492a-fb13-408a-959b-2ed0478404aa.jpg");
+    background-size: cover;
+    width:100%;
+    padding: 20px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;  
+}
+.part1{
+    display:flex;
+    flex-direction:column;
+    padding:15px;
+    background-color: rgba(0, 0, 0, 0.658);
+    justify-content: center;
+    align-items: center;
+}
+.part2{
+    display:flex;
+    flex-direction:column;
+    padding: 30px;
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.658);
+    align-items: center;
+
+}
+.legenda{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+}
+.wolne{
+    background-color: rgba(0, 128, 0, 0.850);
+    padding: 10px;
+    color: black;
+    margin: 5px;
+}
+.zarezerwowane{
+    background-color: rgba(255, 255, 0, 0.850);
+    padding: 10px;
+    color: black;
+    margin: 5px;
+}
+.table{
+    display:flex;
+    flex-direction:row;
+}
+
+main{
+    padding: 15px;
+    margin: 10px;
+    margin-left: 400px;
+    margin-right: 400px;
+    background-image: linear-gradient(rgb(14, 12, 12), rgb(46, 46, 43), rgb(9, 12, 9));
+    text-align: center;
+}
+
+footer{
+    padding-left: 200px;
+    padding-right: 200px;
+    align-self: center;
+    flex-shrink: 0;
+    background-color: hsla(0, 3%, 7%, 0.932);
+    font-size: 16px;
+}
+input{
+    color: black;
+}

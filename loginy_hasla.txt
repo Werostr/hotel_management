@@ -1,0 +1,6 @@
+Adam Kowalski login: test2 has這: 123
+Joanna Kowalczyk login: jkowal has這: 123
+Zbigniew Kotecki login: zkotecki has這: haslo
+Wojciech Jasina login: wjasina has這: Qwerty
+Mened瞠r login: manager has這: admin
+Pracownik login: employee has這: nicepass

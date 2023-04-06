@@ -1,0 +1,80 @@
+html{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+    background-image: url("https://wptv-upload-api.wpcdn.pl/24b0492a-fb13-408a-959b-2ed0478404aa.jpg");
+    background-size: cover;
+    width:100%;
+}
+*,*:before, *:after{
+    box-sizing: inherit;
+    font-family: Didot, serif;
+    font-style: italic;
+    font-size: 19px;
+    font-weight: normal;
+    text-decoration:initial;
+    color:rgba(255, 255, 255, 0.808);
+}
+html, body{
+    height: 100%;
+}
+.content{
+    flex: 1 0 auto; 
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.czysto{
+    border-style: groove;
+    border-color: black;
+    background-color: lightblue;
+    padding: 10px;
+    color: black;
+    margin: 5px;
+}
+.brudno{
+    border-style: groove;
+    border-color: black;
+    background-color: grey;
+    padding: 10px;
+    color: black;
+    margin: 5px;
+}
+.part1{
+    display:flex;
+    flex-direction:column;
+    padding:15px;
+    background-color: rgba(0, 0, 0, 0.658);
+    justify-content: center;
+    align-items: center;
+}
+.part2{
+    display:flex;
+    flex-direction:column;
+    padding: 30px;
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.658);
+    align-items: center;
+
+}
+.all{
+
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;  
+}
+
+footer{
+    padding-left: 200px;
+    padding-right: 200px;
+    align-self: center;
+    flex-shrink: 0;
+    background-color: hsla(0, 3%, 7%, 0.932);
+    font-size: 16px;
+}
+input{
+    color: black;
+}
